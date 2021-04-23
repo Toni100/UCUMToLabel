@@ -62,7 +62,7 @@ GrammarRules[
             "d" -> "d\[EAcute]ci",
             "c" -> "centi",
             "m" -> "milli",
-            "\[Mu]" -> "micro",
+            "u" -> "micro",
             "n" -> "nano",
             "p" -> "pico",
             "f" -> "femto",

@@ -55,7 +55,7 @@ GrammarRules[
             "d" -> "deci",
             "c" -> "centi",
             "m" -> "mili",
-            "\[Mu]" -> "micro",
+            "u" -> "micro",
             "n" -> "nano",
             "p" -> "pico",
             "f" -> "femto",
