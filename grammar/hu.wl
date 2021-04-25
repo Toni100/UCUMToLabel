@@ -87,7 +87,9 @@ GrammarRules[
             "h" -> "\[OAcute]ra",
             "d" -> "nap",
             "bar" -> "bar",
-            "eV" -> "elektronvolt"
+            "eV" -> "elektronvolt",
+            "Ci" -> "curie",
+            "R" -> "r\[ODoubleDot]ntgen"
         }
     }
 ]

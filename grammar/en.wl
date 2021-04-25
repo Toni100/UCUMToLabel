@@ -88,7 +88,9 @@ GrammarRules[
             "h" -> "hour",
             "d" -> "day",
             "bar" -> "bar",
-            "eV" -> "electronvolt"
+            "eV" -> "electronvolt",
+            "Ci" -> "curie",
+            "R" -> "roentgen"
         }
     }
 ]

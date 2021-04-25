@@ -110,7 +110,9 @@ GrammarRules[
             "h" -> "hora",
             "d" -> "d\[IAcute]a",
             "bar" -> "bar",
-            "eV" -> "electronvoltio"
+            "eV" -> "electronvoltio",
+            "Ci" -> "curio",
+            "R" -> "roentgen"
         },
         "informationUnit" -> {
             "bit" -> "bit",

@@ -100,7 +100,9 @@ GrammarRules[
             "Bq" -> "becquerel",
             "Gy" -> "gray",
             "Sv" -> "sievert",
-            "kat" -> "katal"
+            "kat" -> "katal",
+            "Ci" -> "curie",
+            "R" -> "r\[ODoubleDot]ntgen"
         }
     }
 ]

@@ -114,7 +114,9 @@ GrammarRules[
             "h" -> "Stunde",
             "d" -> "Tag",
             "bar" -> "Bar",
-            "eV" -> "Elektronenvolt"
+            "eV" -> "Elektronenvolt",
+            "Ci" -> "Curie",
+            "R" -> "R\[ODoubleDot]ntgen"
         },
         "informationUnit" -> {
             "bit" -> "Bit",
