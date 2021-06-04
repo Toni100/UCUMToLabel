@@ -20,11 +20,14 @@ GrammarRules[
                 ".",
                 u2 : GrammarToken["unprefixedUnit"]
             ] :> u1 <> ToLowerCase[u2],
-            FixedOrder[
-                u1 : GrammarToken["exponentiatedUnit"],
-                ".",
-                u2 : GrammarToken["exponentiatedUnit"]
-            ] :> u1 <> "-" <> u2
+            u : DelimitedSequence[
+                GrammarToken["unprefixedUnit"],
+                "."
+            ] :> First[{u}] <> ToLowerCase[Rest[{u}]],
+            u : DelimitedSequence[
+                GrammarToken["exponentiatedUnit"],
+                "."
+            ] :> StringRiffle[{u}, "-"]
         },
         "exponentiatedUnit" -> {
             GrammarToken["prefixedUnit"],
