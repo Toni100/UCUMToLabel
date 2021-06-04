@@ -73,6 +73,7 @@ GrammarRules[
         "unprefixedUnitF" -> {
             "s" -> "seconde",
             "cd" -> "candela",
+            "eV" -> "\[EAcute]lectronvolt",
             "mol" -> "mole"
         },
         "unprefixedUnitM" -> {
